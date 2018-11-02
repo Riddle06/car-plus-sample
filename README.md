@@ -9,17 +9,17 @@
 ## 專案建置
 - 前往 https://github.com/Riddle06/car-plus-sample 中將專案 clone 下來
 
-- 開啟終端機，並前往到該目錄下
+- 開啟終端機，並前往到該目錄下，指令如下
 ```bash
 cd C:\{{專案路徑}}
 ```
 
-- 下載專案相依套件
+- 下載專案相依套件，指令如下
 ```bash
 npm init
 ```
 
-- 啟動該應用程式
+- 啟動該應用程式，指令如下
 ```bash
 npm start
 ```
