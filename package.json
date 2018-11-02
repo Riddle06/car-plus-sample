@@ -1,0 +1,20 @@
+{
+  "name": "car-plus-node-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "init": "mkdir dist && mkdir -p logs",
+    "prebuild": "npm run clean && npm run init",
+    "build": "node_modules/typescript/bin/tsc",
+    "start": "npm run build && node ./dist"
+  },
+  "author": "rex",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "express": "^4.16.4",
+    "typescript": "^3.1.6"
+  }
+}
