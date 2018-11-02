@@ -8,6 +8,9 @@
 
 ## 專案建置
 - 前往 https://github.com/Riddle06/car-plus-sample 中將專案 clone 下來
+```bash
+git clone https://github.com/Riddle06/car-plus-sample.git
+```
 
 - 開啟終端機，並前往到該目錄下，指令如下
 ```bash
