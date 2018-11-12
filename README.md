@@ -19,12 +19,12 @@ cd C:\{{專案路徑}}
 
 - 下載專案相依套件，指令如下
 ```bash
-npm init
+npm install
 ```
 
 - 啟動該應用程式，指令如下
 ```bash
-npm start
+npm start:windows
 ```
 
 - 在終端機看到 `server start on port: 8080` 後將瀏覽器打開 http://localhost:8080

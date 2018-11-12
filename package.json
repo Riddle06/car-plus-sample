@@ -8,7 +8,9 @@
     "init": "mkdir dist && mkdir -p logs",
     "prebuild": "npm run clean && npm run init",
     "build": "node_modules/typescript/bin/tsc",
-    "start": "npm run build && node ./dist"
+    "build:windows": "npm run build && node ./dist",
+    "start": "npm run build && node ./dist",
+    "start:windows": "npm run build:windows && node ./dist"
   },
   "author": "rex",
   "license": "MIT",
