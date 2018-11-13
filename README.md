@@ -22,9 +22,14 @@ cd C:\{{專案路徑}}
 npm install
 ```
 
+- 下載全域套件
+```bash
+npm install -g typescript
+```
+
 - 啟動該應用程式，指令如下
 ```bash
-npm start:windows
+npm run start:windows
 ```
 
 - 在終端機看到 `server start on port: 8080` 後將瀏覽器打開 http://localhost:8080
