@@ -9,7 +9,7 @@
     "prebuild": "npm run clean && npm run init",
     "build": "node_modules/typescript/bin/tsc",
     "start": "npm run build && node ./dist",
-    "build:windows": "node_modules/typescript/bin/tsc",
+    "build:windows": "tsc",
     "start:windows": "npm run build:windows && node ./dist"
   },
   "author": "rex",
